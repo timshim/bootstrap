@@ -1,5 +1,5 @@
 var fs = require('fs');
-var express = require('/node_modules/express');
+var express = require('express');
 
 var app = express();
 
