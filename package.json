@@ -3,15 +3,15 @@
   , "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development."
   , "version": "3.0.0"
   , "keywords": ["bootstrap", "css"]
-  , "homepage": "http://twbs.github.com/bootstrap/"
+  , "homepage": "https://github.com/timshim/bootstrap/"
   , "author": "Twitter Inc."
   , "scripts": { "test": "grunt test" }
   , "repository": {
       "type": "git"
-    , "url": "https://github.com/twbs/bootstrap.git"
+    , "url": "https://github.com/timshim/bootstrap.git"
   }
   , "bugs": {
-      "url": "https://github.com/twbs/bootstrap/issues"
+      "url": "https://github.com/timshim/bootstrap/issues"
   }
   , "licenses": [
     {
