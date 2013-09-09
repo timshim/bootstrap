@@ -1,16 +1,26 @@
----
-layout: home
-title: Bootstrap
-base_url: "./"
----
+<html>
+  <head>
+    <title>Sample "Hello, World" Application</title>
+  </head>
+  <body bgcolor=white>
 
-<main class="bs-masthead" id="content" role="main">
-  <div class="container">
-    <h1>Bootstrap</h1>
-    <p class="lead">Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-    <p>
-      <a href="{{ site.download_dist }}" class="btn btn-outline-inverse btn-lg" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}']);">Download Bootstrap</a>
-      <a href="{{ site.download_source }}" class="btn btn-outline-inverse btn-lg" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Download', 'Download {{ site.current_version source }}']);">Download source</a>
-    </p>
-  </div>
-</main>
+    <table border="0" cellpadding="10">
+      <tr>
+        <td>
+          <img src="images/springsource.png">
+        </td>
+        <td>
+          <h1>Sample "Hello, World" Application</h1>
+        </td>
+      </tr>
+    </table>
+
+    <p>This is the home page for the HelloWorld Web application. </p>
+    <p>To prove that they work, you can execute either of the following links:
+    <ul>
+      <li>To a <a href="hello.jsp">JSP page</a>.
+      <li>To a <a href="hello">servlet</a>.
+    </ul>
+
+  </body>
+</html>
